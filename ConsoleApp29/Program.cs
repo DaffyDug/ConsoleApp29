@@ -63,7 +63,7 @@ class Program
                     string intvalue3 = Console.ReadLine();
                     if (intvalue3 == "1")
                     {
-                        inputText.Clear_scr(stringBuilder);
+                        inputText.Clear_text(stringBuilder);
                     }
                     else
                     {
@@ -104,6 +104,10 @@ class Program
                         continue;
                     }
                 }
+            }
+            if (intvalue == "5")
+            {
+                inputText.Clear_scr();
             }
         }
     }

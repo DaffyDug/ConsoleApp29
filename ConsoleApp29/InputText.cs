@@ -18,9 +18,12 @@ class InputText
     {
         Console.WriteLine(stringBuilder);
     }
-    public void Clear_scr(StringBuilder stringBuilder)
+    public void Clear_text(StringBuilder stringBuilder)
     {
         stringBuilder.Clear();
-        stringBuilder.Clear();
+    }
+    public void Clear_scr()
+    {
+        Console.Clear();
     }
 }
