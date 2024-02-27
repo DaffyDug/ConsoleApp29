@@ -21,5 +21,6 @@ class InputText
     public void Clear_scr(StringBuilder stringBuilder)
     {
         stringBuilder.Clear();
+        stringBuilder.Clear();
     }
 }
