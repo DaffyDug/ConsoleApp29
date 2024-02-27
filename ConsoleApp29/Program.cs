@@ -93,6 +93,22 @@ class Program
                         {
                             stringBuilder.Replace(str, str2);
                             Console.WriteLine(stringBuilder);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
                         }
                         else
                         {
